@@ -6,6 +6,7 @@ we are creating a multiple-line graph that shows the total weekly fares for each
                 Sum of Fares ,Average fair per ride,Average fares per Driver for the corresponding cities.<br/>
 **Deliverable2:**<br/> We are creating a Matplotlib plot('fivethirtyeight') to analyse the datas by taking the "months" in X axis and "rates" in Y axis.<br/>
 ##**Steps involved**##<br/>
+##**Deliverable1**##<br/>
 Step 1: Read the csv files and create the corresponding dataframes "city_data_df" and "ride_data_df".<br/>
 Srep 2: Merging the two DF s by the common column "city" we create "pyber_data_df"<br/>
 Step 3: Classify the datas according to the city "types"<br/>
@@ -13,4 +14,8 @@ Step 4: Count all the values to create a new DF "pyber_summary_df" citiy,ride,dr
 Step 5: After cleaning it gives the DF<br/>
 Image deliverable1<br/>
 ![mod5del1(2)](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/mod5del1%20(2).png)
-
+##**Deliverable2**##<br/>
+Step 1:Renaming the columns,set index to date,Reducing the columns ["Fare","city","type"]<br/>
+Step 2:Changing index to datetime.<br/>
+Step 3:Creating new DF grouped by City type and date,Create a pivot table with index as ""date & column as "type "<br/>
+![tablewithNas](
