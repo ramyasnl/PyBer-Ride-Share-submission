@@ -18,4 +18,7 @@ Image deliverable1<br/>
 Step 1:Renaming the columns,set index to date,Reducing the columns ["Fare","city","type"]<br/>
 Step 2:Changing index to datetime.<br/>
 Step 3:Creating new DF grouped by City type and date,Create a pivot table with index as ""date & column as "type "<br/>
-![tablewithNas](
+![tablewithNas](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/withNas.png)
+Step 4:Using "loc" frome the above data we get pyber_pivot_df_weekly<br/>
+![pyber_challenge](
+
