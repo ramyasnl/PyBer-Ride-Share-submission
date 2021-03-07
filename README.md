@@ -23,7 +23,7 @@ Step 4:Using "loc" frome the above data we get pyber_pivot_df_weekly<br/>
 ![renaming](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/resampledDF.png)<br/>
 Step 5:Using Matplotlib we are creating a multiple-line graph that shows the total weekly fares for each city type. <br/>
 ![pyber_challenge](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/pyber_challenge.png)<br/>
-#**Analysis**#
+#**Analysis**#<br/>
 From the above plot we can say the Maximum Amount of Fare got collected in the month of February 24 on all the type of Cities.</br>
 Also the minimun Fare got collected is different for all the city types ,for Rural its on Jan ,Suburbs its on March ,Urban its on Jan </br>
-so the number of drivers may be increased on the second two weeks of february ,on all type of places so that Pyber can address more customers than regular days.
+So the number of drivers may be increased on the second two weeks of february ,on all types of places so that Pyber can address more customers than regular days.<br/>
