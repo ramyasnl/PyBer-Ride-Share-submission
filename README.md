@@ -13,7 +13,7 @@ Step 3: Classify the datas according to the city "types"<br/>
 Step 4: Count all the values to create a new DF "pyber_summary_df" citiy,ride,driver,total_fares,average_fares per ride<br/>
 Step 5: After cleaning it gives the DF<br/>
 Image deliverable1<br/>
-![mod5del1(2)](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/mod5del1%20(2).png)
+![mod5del1(2)](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/mod5del1%20(2).png)<br/>
 ##**Deliverable2**##<br/>
 Step 1:Renaming the columns,set index to date,Reducing the columns ["Fare","city","type"]<br/>
 Step 2:Changing index to datetime.<br/>
@@ -21,6 +21,7 @@ Step 3:Creating new DF grouped by City type and date,Create a pivot table with i
 ![tablewithNas](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/withNas.png)<br/>
 Step 4:Using "loc" frome the above data we get pyber_pivot_df_weekly<br/>
 ![renaming](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/resampledDF.png)<br/>
+Step 5:Using Matplotlib we are creating a multiple-line graph that shows the total weekly fares for each city type. <br/>
 ![pyber_challenge](https://github.com/ramyasnl/PyBer-Ride-Share-submission/blob/main/pyber_challenge.png)<br/>
 #**Analysis**#
 From the above plot we can say the Maximum Amount of Fare got collected in the month of February 24 on all the type of Cities.</br>
